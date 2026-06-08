@@ -1,7 +1,6 @@
 # Agent Harness
 
 A minimal, extensible AI agent harness using OpenAI's function‑calling API.  
-Built for a Cloudera AI SA practical interview.
 
 ## Architecture
 
@@ -22,4 +21,4 @@ Add a function in `tools.py`, add its schema to the `TOOLS` list, and handle exe
 
 ## Why this matters for Cloudera
 
-This harness can be connected to any LLM endpoint (including Cloudera AI Inference) by swapping the `OpenAI` client. Tools can be scaled to Cloudera data services (e.g., SQL query via Hive, Spark job submission).
+This harness can be connected to any LLM endpoint by swapping the `OpenAI` client. 
